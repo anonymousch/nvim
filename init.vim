@@ -1,4 +1,5 @@
-"author fomalhaut
+"@author fomalhaut
+"brew install neovim
 "curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && /usr/local/bin/python3.7 install --user pynvim
 "command: PlugInstall
@@ -88,8 +89,6 @@ endfunction
 function! DeFileformat()
 return winwidth(0) > 70 ? (&fileformat . ' ' . WebDevIconsGetFileFormatSymbol()) : ''
 endfunction
-
-
 
 
 "ctrlp
